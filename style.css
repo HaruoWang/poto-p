@@ -127,7 +127,7 @@ body {
 
 @keyframes tag {
     from {left: 10vw; opacity: 0%;}
-    to {left: 3.5vw; opacity: 100%;}
+    to {left: 3.55vw; opacity: 100%;}
 }
 
 img {
@@ -149,6 +149,7 @@ button {
     font-family: 'Noto Serif TC', 'Noto Serif JP', serif;
     color: black;
     border-radius: 50px;
+    background-color: #EFEFEF;
 }
 
 #b1a {
