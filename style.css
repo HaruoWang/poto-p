@@ -130,6 +130,11 @@ body {
     to {left: 3.55vw; opacity: 100%;}
 }
 
+@keyframes deco {
+    from {bottom: 139vw; opacity: 50%;}
+    to {bottom: 129vw; opacity: 100%;}
+}
+
 img {
 	position: relative;
     width: 100%;
@@ -207,6 +212,31 @@ button {
     font-size: 0.8rem;
 }
 
+.cover {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+
+@keyframes c {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(345deg);
+    }
+}
+
+@keyframes cr {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(375deg);
+    }
+}
+
 /* .b1color:hover {
     background: #D2D764;
 }
@@ -223,19 +253,35 @@ button {
     background: #A5A5CD;
 } */
 
+#result {
+    box-shadow: 2px 3px 10px 3px #999999;
+    -webkit-box-shadow: 2px 3px 10px 3px #999999;
+    -moz-box-shadow: 2px 3px 10px 3px #999999;
+    -o-box-shadow: 2px 3px 10px 3px #999999;
+}
+
+#c1:focus {
+    filter: hue-rotate(90deg);
+}
+
+#c2:focus {
+    filter: hue-rotate(90deg);
+}
+
+#c3:focus {
+    filter: hue-rotate(90deg);
+}
+
 #down {
     width: 140px;
-    transform: translate(-320px);
 }
 
 #home {
     width: 210px;
-    transform: translate(-318px);
 }
 
 .re {
     width: 280px;
-    transform: translate(-316px);
 }
 
 h1 {

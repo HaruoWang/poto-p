@@ -214,7 +214,56 @@ const urlMappings4 = {
   },
 };
 
+const objMappings1 = {
+  b1a: '/img/y-obj8.png',
+  b1b: '/img/y-obj1.png',
+  b1c: '/img/y-obj9.png',
+  b2a: '/img/y-obj6.png',
+  b2b: '/img/y-obj7.png',
+  b2c: '/img/y-obj3.png',
+  b3a: '/img/y-obj2.png',
+  b3b: '/img/y-obj5.png',
+  b3c: '/img/y-obj4.png',
+};
+
+const objMappings2 = {
+  // b1a: '/img/y-obj8.png',
+  // b1b: '/img/y-obj1.png',
+  // b1c: '/img/y-obj9.png',
+  // b2a: '/img/y-obj6.png',
+  // b2b: '/img/y-obj7.png',
+  // b2c: '/img/y-obj3.png',
+  // b3a: '/img/y-obj2.png',
+  // b3b: '/img/y-obj5.png',
+  // b3c: '/img/y-obj4.png',
+};
+
+const objMappings3 = {
+  // b1a: '/img/y-obj8.png',
+  // b1b: '/img/y-obj1.png',
+  // b1c: '/img/y-obj9.png',
+  // b2a: '/img/y-obj6.png',
+  // b2b: '/img/y-obj7.png',
+  // b2c: '/img/y-obj3.png',
+  // b3a: '/img/y-obj2.png',
+  // b3b: '/img/y-obj5.png',
+  // b3c: '/img/y-obj4.png',
+};
+
+const objMappings4 = {
+  // b1a: '/img/y-obj8.png',
+  // b1b: '/img/y-obj1.png',
+  // b1c: '/img/y-obj9.png',
+  // b2a: '/img/y-obj6.png',
+  // b2b: '/img/y-obj7.png',
+  // b2c: '/img/y-obj3.png',
+  // b3a: '/img/y-obj2.png',
+  // b3b: '/img/y-obj5.png',
+  // b3c: '/img/y-obj4.png',
+};
+
 let urlMappings
+let objMappings
 
 const b1 = document.getElementById('b1');
 const b2 = document.getElementById('b2');
@@ -237,6 +286,10 @@ const b5 = document.getElementById('b5');
 const result = document.getElementById('result');
 const down = document.getElementById('down');
 const home = document.getElementById('home');
+const c1 = document.getElementById('c1');
+const c2 = document.getElementById('c2');
+const c3 = document.getElementById('c3');
+const obj = document.getElementById('obj');
 
 let re1 = document.getElementById('re1');
 let re2 = document.getElementById('re2');
@@ -246,15 +299,19 @@ let re
 
 if (location.pathname === "/1.html") {
   urlMappings = urlMappings1;
+  objMappings = objMappings1;
   re = re1;
 } else if (location.pathname === "/2.html") {
   urlMappings = urlMappings2;
+  objMappings = objMappings2;
   re = re2;
 } else if (location.pathname === "/3.html") {
   urlMappings = urlMappings3;
+  objMappings = objMappings3;
   re = re3;
 } else if (location.pathname === "/4.html") {
   urlMappings = urlMappings4;
+  objMappings = objMappings4;
   re = re4;
 }
 
@@ -768,11 +825,21 @@ b1d.addEventListener('click', next1);
 b2d.addEventListener('click', next2);
 b3d.addEventListener('click', next3);
 b4.addEventListener('click', next4);
-b4a.addEventListener('click', next4a);
-b5.addEventListener('click', next5);
 down.addEventListener('click', download);
 home.addEventListener('click', homehref);
 re.addEventListener('click', rehref);
+
+let c2Clicked = false;
+let c3Clicked = false;
+c1.addEventListener('click', obj1);
+c2.addEventListener('click', function() {
+  c2Clicked = true;
+  obj2();
+});
+c3.addEventListener('click', function() {
+  c3Clicked = true;
+  obj3();
+});
 
 function showNext1() {
   document.getElementById('foot1').style.width = '12vw';
@@ -858,32 +925,6 @@ function next4() {
   }, 0);
 }
 
-function next4a() {
-  document.getElementById('p4').style.display = 'none';
-  document.getElementById('p4a').style.display = 'block';
-}
-
-function next5() {
-
-  const imageUrl = urlMappings[a1][a2][a3];
-  const resultText = `<img src="${imageUrl}" alt="result image">`;
-
-  result.innerHTML = '';
-  result.innerHTML += resultText;
-
-  document.getElementById('p4a').style.display = 'none';
-  document.getElementById('p5').style.display = 'block';
-
-  window.scrollTo({
-    top: 1000,
-    behavior: "smooth"
-  });
-
-  setTimeout(function() {
-    window.location.href = "#p5";
-  }, 0);
-}
-
 function download() {
 
   const imageUrl = urlMappings[a1][a2][a3];
@@ -910,4 +951,112 @@ function rehref() {
   } else if (location.pathname === "/4.html") {
     window.location.href = "/4.html"
   }
+}
+
+function obj1() {
+  document.getElementById('lottie').style.display = 'none';
+
+  document.getElementById('cover1').style.animation = 'c 0.25s linear';
+  document.getElementById('cover1').style.animationFillMode = 'forwards';
+  document.getElementById('cover1').style.transformOrigin = '-120px 180px';
+  document.getElementById('c1').style.animation = 'cr 0.25s linear';
+  document.getElementById('c1').style.animationFillMode = 'forwards';
+
+  function obj1a() {
+    document.getElementById('cover2').style.animation = 'c 0.25s linear';
+    document.getElementById('cover2').style.animationDirection = 'reverse';
+    document.getElementById('cover2').style.animationFillMode = 'forwards';
+    document.getElementById('c2').style.animation = 'cr 0.25s linear';
+    document.getElementById('c2').style.animationDirection = 'reverse';
+    document.getElementById('c2').style.animationFillMode = 'forwards';
+  }
+
+  function obj1b() {
+    document.getElementById('cover2').style.animation = 'c 0.25s linear';
+    document.getElementById('cover2').style.animationDirection = 'reverse';
+    document.getElementById('cover2').style.animationFillMode = 'forwards';
+    document.getElementById('c2').style.animation = 'cr 0.25s linear';
+    document.getElementById('c2').style.animationDirection = 'reverse';
+    document.getElementById('c2').style.animationFillMode = 'forwards';
+    document.getElementById('cover3').style.animation = 'c 0.25s linear';
+    document.getElementById('cover3').style.animationDirection = 'reverse';
+    document.getElementById('cover3').style.animationFillMode = 'forwards';
+    document.getElementById('c3').style.animation = 'cr 0.25s linear';
+    document.getElementById('c3').style.animationDirection = 'reverse';
+    document.getElementById('c3').style.animationFillMode = 'forwards';
+  }
+
+  if (c2Clicked) {
+    obj1a();
+  }
+
+  if (c3Clicked) {
+    obj1b();
+  }
+
+  const imageUrl = objMappings[a1];
+  const objText = `<img src="${imageUrl}" alt="obj image" style="bottom: 100vw; z-index: -1;">`;
+
+  obj.innerHTML = '';
+  obj.innerHTML += objText;
+}
+
+function obj2() {
+  document.getElementById('lottie').style.display = 'none';
+  
+  document.getElementById('cover1').style.animation = 'c 0.25s linear';
+  document.getElementById('cover1').style.animationFillMode = 'forwards';
+  document.getElementById('cover1').style.transformOrigin = '-120px 180px';
+  document.getElementById('c1').style.animation = 'cr 0.25s linear';
+  document.getElementById('c1').style.animationFillMode = 'forwards';
+  document.getElementById('cover2').style.animation = 'c 0.25s linear';
+  document.getElementById('cover2').style.animationFillMode = 'forwards';
+  document.getElementById('cover2').style.transformOrigin = '-120px 180px';
+  document.getElementById('c2').style.animation = 'cr 0.25s linear';
+  document.getElementById('c2').style.animationFillMode = 'forwards';
+
+  function obj2a() {
+    document.getElementById('cover3').style.animation = 'c 0.25s linear';
+    document.getElementById('cover3').style.animationDirection = 'reverse';
+    document.getElementById('cover3').style.animationFillMode = 'forwards';
+    document.getElementById('c3').style.animation = 'cr 0.25s linear';
+    document.getElementById('c3').style.animationDirection = 'reverse';
+    document.getElementById('c3').style.animationFillMode = 'forwards';
+  }
+
+  if (c3Clicked) {
+    obj2a();
+  }
+
+  const imageUrl = objMappings[a2];
+  const objText = `<img src="${imageUrl}" alt="obj image" style="bottom: 100vw; z-index: -1;">`;
+
+  obj.innerHTML = '';
+  obj.innerHTML += objText;
+}
+
+function obj3() {
+  document.getElementById('lottie').style.display = 'none';
+
+  document.getElementById('cover1').style.animation = 'c 0.25s linear';
+  document.getElementById('cover1').style.animationFillMode = 'forwards';
+  document.getElementById('cover1').style.transformOrigin = '-120px 180px';
+  document.getElementById('c1').style.animation = 'cr 0.25s linear';
+  document.getElementById('c1').style.animationFillMode = 'forwards';
+  document.getElementById('cover2').style.animation = 'c 0.25s linear';
+  document.getElementById('cover2').style.animationFillMode = 'forwards';
+  document.getElementById('cover2').style.transformOrigin = '-120px 180px';
+  document.getElementById('c2').style.animation = 'cr 0.25s linear';
+  document.getElementById('c2').style.animationFillMode = 'forwards';
+  document.getElementById('cover3').style.animation = 'c 0.25s linear';
+  document.getElementById('cover3').style.animationFillMode = 'forwards';
+  document.getElementById('cover3').style.transformOrigin = '-120px 180px';
+  document.getElementById('c3').style.animation = 'cr 0.25s linear';
+  document.getElementById('c3').style.animationFillMode = 'forwards';
+
+  const imageUrl = objMappings[a3];
+  const objText = `<img src="${imageUrl}" alt="obj image" style="bottom: 100vw; z-index: -1;">`;
+
+  obj.innerHTML = '';
+  obj.innerHTML += objText;
 }
