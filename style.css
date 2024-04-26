@@ -130,9 +130,14 @@ body {
     to {left: 3.55vw; opacity: 100%;}
 }
 
-@keyframes deco {
-    from {bottom: 139vw; opacity: 50%;}
-    to {bottom: 129vw; opacity: 100%;}
+@keyframes pp1 {
+    from {transform: rotateY(0deg);}
+    to {transform: rotateY(360deg);}
+}
+
+@keyframes top {
+    from {left: 100vw; opacity: 0%;}
+    to {left: 50vw; opacity: 100%;}
 }
 
 img {
@@ -305,7 +310,7 @@ h2 {
 }
 
 .nav {
-    display: flex;
+    display: none;
     padding-right: 2.5rem;
     width: 400px;
     justify-content: space-between;
@@ -321,8 +326,92 @@ h2 {
 }
 
 .ham {
-    display: none;
+    display: flex;
+    padding-right: 1rem;
+    width: 40px;
     flex-direction: column;
+}
+
+#ham1:checked ~ .menu {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    right: calc(100vw - 56px);
+    bottom: 5px;
+    width: max-content;
+    background: #999999;
+}
+#ham2:checked ~ .menu {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    right: calc(100vw - 56px);
+    bottom: 5px;
+    width: max-content;
+    background: #999999;
+}
+#ham3:checked ~ .menu {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    right: calc(100vw - 56px);
+    bottom: 5px;
+    width: max-content;
+    background: #999999;
+}
+#ham4:checked ~ .menu {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    right: calc(100vw - 56px);
+    bottom: 5px;
+    width: max-content;
+    background: #999999;
+}
+#ham4a:checked ~ .menu {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    right: calc(100vw - 56px);
+    bottom: 5px;
+    width: max-content;
+    background: #999999;
+}
+#ham5:checked ~ .menu {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    right: calc(100vw - 56px);
+    bottom: 5px;
+    width: max-content;
+    background: #999999;
+}
+.m1 {
+    background-color: #8c64a0 !important;
+}
+.m2 {
+    background-color: #FAF0B9 !important;
+}
+.m3 {
+    background-color: #AAFFB4 !important;
+}
+.m4 {
+    background-color: #D2FFFF !important;
+}
+li {
+    width: 100vw;
+}
+li > a {
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.ham0 {
+    width: 150%;
 }
 
 #ham1 {

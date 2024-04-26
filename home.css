@@ -131,7 +131,7 @@ h2 {
 }
 
 .nav {
-    display: flex;
+    display: none;
     padding-right: 2.5rem;
     width: 400px;
     justify-content: space-between;
@@ -147,8 +147,38 @@ h2 {
 }
 
 .ham {
-    display: none;
+    display: flex;
+    padding-right: 1rem;
+    width: 40px;
     flex-direction: column;
+}
+
+#ham:checked ~ .menu {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    right: calc(100vw - 56px);
+    bottom: 5px;
+    width: max-content;
+    background: #999999;
+}
+li {
+    width: 100vw;
+}
+li > a {
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.ham0 {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 150%;
 }
 
 #ham {
