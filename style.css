@@ -56,7 +56,7 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 60px;
+    height: 40px;
     background: #8c64a0;
 }
 
@@ -90,7 +90,7 @@ body {
 }
 
 .logol {
-    width: 100%;
+    width: 66.6%;
 }
 
 .logos {
@@ -408,10 +408,6 @@ li > a {
     padding-bottom: 0.5rem;
     text-decoration: none;
     color: black;
-}
-
-.ham0 {
-    width: 150%;
 }
 
 #ham1 {
