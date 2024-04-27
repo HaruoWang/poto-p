@@ -64,7 +64,7 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 80px;
+    height: 40px;
     background: #FAF0B9;
 }
 
@@ -72,7 +72,7 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 80px;
+    height: 40px;
     background: #AAFFB4;
 }
 
@@ -80,7 +80,7 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 80px;
+    height: 40px;
     background: #D2FFFF;
 }
 
@@ -133,6 +133,11 @@ body {
 @keyframes pp1 {
     from {transform: rotateY(0deg);}
     to {transform: rotateY(360deg);}
+}
+
+@keyframes pp2 {
+    from {transform: rotateX(0deg);}
+    to {transform: rotateX(360deg);}
 }
 
 @keyframes top {

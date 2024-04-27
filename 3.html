@@ -16,10 +16,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div id="p1">
-  <div style="display: flex;
-  flex-direction: column;
-  min-height: 100vh;">
+  <div id="p1" style="overflow: hidden;">
+    <div style="display: flex;
+    flex-direction: column;
+    min-height: 100vh;">
     <div class="head3" style="z-index: 2;">
       <a class="logoa" href="/index.html">
         <img class="logol" src="/img/logol.webp">
@@ -44,27 +44,32 @@
         </div>
       </div>
     </div>
-    <main style="min-height: 160.5vw;">
-      <img src="/img/tasi f.png" style="position:absolute; left:50%; pointer-events: none;">
-      <img src="/img/tasi b.png" style="position:absolute; left:50%; z-index: -1;">
+    <main style="width: 100%;">
+      <img src="/img/tasi-p.png" style="position:absolute; left:50%; z-index: 1; pointer-events: none;">
       <br>
-    <div style="position: relative; top: 118.5vw;">
-    <div id="b1" style="position: absolute; width: 100%;">
-      <button class="b3color" id="b1a">Creepy nuts《よふかしのうた》</button>
+    <div style="position: relative; top: 15.5vw;">
+    <div id="b1" style="position: absolute; width: 30%; left: 55.5%;">
+      <button class="b3color" id="b1a"><p class="sing" style="text-align: left;">Creepy nuts</p><p style="text-align: left;">よふかしのうた</p></button>
         <br>
-      <button class="b3color" id="b1b">sokodomo《good life》</button>
+      <button class="b3color" id="b1b"><p class="sing" style="text-align: left;">sokodomo</p><p style="text-align: left;">good life</p></button>
         <br>
-      <button class="b3color" id="b1c">Cigarettes After Sex《Apocalypse》</button>
+      <button class="b3color" id="b1c"><p class="sing" style="text-align: left;">Cigarettes After Sex</p><p style="text-align: left;">Apocalypse</p></button>
         <br>
-      <button class="b3color" id="b1d" style="display: none; top: 9vh;">下一題</button>
+      <button class="b3color" id="b1d" style="display: none; bottom: 3vw;">→</button>
     </div>
     </div>
-  </main>
-  <div id="foot1" style="height: 0.75rem; width: 0vw; position: relative; left: 5vw; border-radius: 50px; background-color: #EBAFC8;"></div>
-</div>
+    </main>
+    <div id="foot1" style="height: 0.75rem; width: 0vw; position: relative; top: 52vw; left: 52.5vw; border-radius: 50px; background-color: #EBAFC8;"></div>
+    <div style="position: relative; top: 3.75vh; width: 7%; align-self: end;">
+      <img src="/img/tag.png">
+      <img style="animation: tag 1.25s;" src="/img/tasi-tag1.png">
+      <img src="/img/tag.png">
+      <img src="/img/tag.png">
+    </div>
+    </div>
   </div>
 
-  <div id="p2" style="display: none;">
+  <div id="p2" style="display: none; overflow: hidden;">
     <div style="display: flex;
     flex-direction: column;
     min-height: 100vh;">
@@ -92,27 +97,32 @@
         </div>
       </div>
     </div>
-    <main style="min-height: 160.5vw;">
-      <img src="/img/tasi f.png" style="position:absolute; left:50%; pointer-events: none;">
-      <img src="/img/tasi b.png" style="position:absolute; left:50%; z-index: -1;">
+    <main style="width: 100%;">
+      <img src="/img/tasi-p.png" style="position:absolute; left:50%; z-index: 1; pointer-events: none;">
       <br>
-    <div style="position: relative; top: 118.5vw;">
-    <div id="b2" style="position: absolute; width: 100%;">
-      <button class="b3color" id="b2a">Zion.T《Stranger》</button>
+    <div style="position: relative; top: 15.5vw;">
+    <div id="b2" style="position: absolute; width: 30%; left: 55.5%;">
+      <button class="b3color" id="b2a"><p class="sing" style="text-align: left;">Zion.T</p><p style="text-align: left;">Stranger</p></button>
         <br>
-      <button class="b3color" id="b2b">Ayumu Imazu《Obsessed》</button>
+      <button class="b3color" id="b2b"><p class="sing" style="text-align: left;">Ayumu Imazu</p><p style="text-align: left;">Obsessed</p></button>
         <br>
-      <button class="b3color" id="b2c">ALI《Wild Side》</button>
+      <button class="b3color" id="b2c"><p class="sing" style="text-align: left;">ALI</p><p style="text-align: left;">Wild Side</p></button>
         <br>
-      <button class="b3color" id="b2d" style="display: none; top: 9vh;">下一題</button>
+      <button class="b3color" id="b2d" style="display: none; bottom: 3vw;">→</button>
     </div>
     </div>
     </main>
-    <div id="foot2" style="height: 0.75rem; width: 0vw; position: relative; left: 5vw; border-radius: 50px; background-color: #EBAFC8;"></div>
-  </div>
+    <div id="foot2" style="height: 0.75rem; width: 12vw; position: relative; top: 52vw; left: 52.5vw; border-radius: 50px; background-color: #EBAFC8;"></div>
+    <div style="position: relative; top: 3.75vh; width: 7%; align-self: end;">
+      <img src="/img/tag.png">
+      <img src="/img/tasi-tag1.png">
+      <img src="/img/tag.png">
+      <img src="/img/tag.png">
+    </div>
+    </div>
   </div>
 
-  <div id="p3" style="display: none;">
+  <div id="p3" style="display: none; overflow: hidden;">
     <div style="display: flex;
     flex-direction: column;
     min-height: 100vh;">
@@ -140,28 +150,33 @@
         </div>
       </div>
     </div>
-    <main style="min-height: 160.5vw;">
-      <img src="/img/tasi f.png" style="position:absolute; left:50%; pointer-events: none;">
-      <img src="/img/tasi b.png" style="position:absolute; left:50%; z-index: -1;">
+    <main style="width: 100%;">
+      <img src="/img/tasi-p.png" style="position:absolute; left:50%; z-index: 1; pointer-events: none;">
       <br>
-    <div style="position: relative; top: 118.5vw;">
-    <div id="b3" style="position: absolute; width: 100%;">
-      <button class="b3color" id="b3a">deca joins《漫漫長夜》</button>
+    <div style="position: relative; top: 15.5vw;">
+    <div id="b3" style="position: absolute; width: 30%; left: 55.5%;">
+      <button class="b3color" id="b3a"><p class="sing" style="text-align: left;">deca joins</p><p style="text-align: left;">漫漫長夜</p></button>
         <br>
-      <button class="b3color" id="b3b">Mori Calliope《end of a life》</button>
+      <button class="b3color" id="b3b"><p class="sing" style="text-align: left;">Mori Calliope</p><p style="text-align: left;">end of a life</p></button>
         <br>
-      <button class="b3color" id="b3c" style="font-size: 0.7rem;">Rosa Walton, Hallie Coggins<br>《I Really Want to Stay at Your House》</button>
+      <button class="b3color" id="b3c"><p class="sing" style="text-align: left;">Rosa Walton, Hallie Coggins</p><p style="text-align: left;">I Really Want to Stay at Your House</p></button>
         <br>
-      <button class="b3color" id="b3d" style="display: none; top: 9vh;">他的歌單</button>
-    </div>  
+      <button class="b3color" id="b3d" style="display: none; bottom: 6vw; font-size: 1.1rem;">他的歌單</button>
     </div>
-    </main>  
-    <div id="foot3" style="height: 0.75rem; width: 60vw; position: relative; left: 5vw; border-radius: 50px; background-color: #EBAFC8;"></div>
-  </div>
+    </div>
+    </main>
+    <div id="foot3" style="height: 0.75rem; width: 24vw; position: relative; top: 52vw; left: 52.5vw; border-radius: 50px; background-color: #EBAFC8;"></div>
+    <div style="position: relative; top: 3.75vh; width: 7%; align-self: end;">
+      <img src="/img/tag.png">
+      <img src="/img/tasi-tag1.png">
+      <img src="/img/tag.png">
+      <img src="/img/tag.png">
+    </div>
+    </div>
   </div>
 
-  <div id="p4" style="display: none;">
-    <div class="head3">
+  <div id="p4" style="display: none; height: 100vh; overflow: hidden;">
+    <div class="head3" style="position: relative; z-index: 4;">
       <a class="logoa" href="/index.html">
         <img class="logol" src="/img/logol.webp">
         <img class="logos" src="/img/logos.webp">
@@ -185,43 +200,17 @@
         </div>
       </div>
     </div>
-    <img src="/img/tasi-top3.png">
+    <img src="/img/tasi-bg.png">
+      <img src="/img/tasi-pp.png" style="z-index: 3; left: 0; bottom: 66.5vw; max-width: 32%; animation: pp1 1.25s cubic-bezier(0.83, 0, 0.17, 1) infinite;">
+      <img src="/img/tasi-deco.png" style="z-index: 2; left: 51.5vw; bottom: 133vw;">
+      <img src="/img/tasi-ptop1.png" style="bottom: 200vw; animation: top 1s;">
+      <img src="/img/tasi-ptop2.png" style="bottom: 262.5vw; animation: top 1.5s;">
+      <img src="/img/tasi-ptop3.png" style="bottom: 325vw; animation: top 2s;">
     <br>
-    <button class="b3color" style="width: 50%; bottom: 40vw; background-color: #EBAFC8;" id="b4a">更多他的歌單 》</button>
-    <button class="b3color" style="width: 50%; bottom: 37.5vw; background-color: #EBAFC8;" id="b4">你的答案 》</button>
+    <button class="b3color" style="width: 20%; bottom: 337.5vw; background-color: #AAFFB4; font-size: 1rem; padding: 0.5rem; z-index: 4;" id="b4">你的答案 》</button>
   </div>
 
-  <div id="p4a" style="display: none;">
-    <div class="head3">
-      <a class="logoa" href="/index.html">
-        <img class="logol" src="/img/logol.webp">
-        <img class="logos" src="/img/logos.webp">
-      </a>
-      <div class="nav">
-        <a class="nava" href="/1.html">yabe</a>
-        <a class="nava" href="/3.html">tasi</a>
-        <a class="nava" href="/4.html">jono</a>
-        <a class="nava" href="/2.html">tengyun</a>
-      </div>
-      <div class="ham">
-        <label for="ham4a"><img class="ham0" src="/img/ham0.svg"></label>
-        <input type="checkbox" id="ham4a">
-        <div class="menu m3">
-          <ul>
-            <li><a href="/1.html">yabe</a></li>
-            <li><a href="/3.html">tasi</a></li>
-            <li><a href="/4.html">jono</a></li>
-            <li><a href="/2.html">tengyun</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <img src="/img/tasi-others.png">
-    <br>
-    <button class="b3color" style="width: 50%; bottom: 15vw; background-color: #EBAFC8;" id="b5">你的答案 》</button>
-  </div>  
-
-  <div id="p5" style="display: none;">
+  <div id="p5" style="display: none; overflow: hidden; height: 100vh;">
     <div class="head3">
       <a class="logoa" href="/index.html">
         <img class="logol" src="/img/logol.webp">
@@ -246,11 +235,26 @@
         </div>
       </div>
     </div>
-    <h1>你的答案</h1>
-    <div id="result"></div>
-    <button class="b3color" style="background-color: #5A96E6; color: #000000;" id="down">下載</button>
-    <button class="b3color" style="background-color: #5A96E6; color: #000000;" id="home">回首頁</button>
-    <button class="b3color re" style="background-color: #5A96E6; color: #000000;" id="re3">再玩一次</button>
+    <div id="result" style="position: relative; top: 8vw; left: 1.5rem; width: 30%;"></div>
+    <img src="/img/tasi-c.png" style="width: 40%; left: 30%; bottom: 10vw; z-index: -1;">
+    <div class="cover" id="cover1">
+      <img src="/img/tasi-c1.png" style="left: 5vw; bottom: 4.5vw; z-index: 2;" id="c1" tabindex="1">
+    </div>
+    <div class="cover" id="cover2">
+      <img src="/img/tasi-c2.png" style="left: 8.75vw; top: 2vw; z-index: 2;" id="c2" tabindex="1">
+    </div>
+    <div class="cover" id="cover3">
+      <img src="/img/tasi-c3.png" style="left: 10vw; top: 9.5vw; z-index: 2;" id="c3" tabindex="1">
+    </div>
+      <br>
+    <button class="b3color" style="background-color: #5A96E6; color: #000000; width: 20%; font-size: 0.9rem; padding: 0.3rem; margin-bottom: 0.6rem; left: 87.5%; bottom: 40vw;" id="down">下載</button>
+      <br>
+    <button class="b3color" style="background-color: #5A96E6; color: #000000; width: 20%; font-size: 0.9rem; padding: 0.3rem; margin-bottom: 0.6rem; left: 87.5%; bottom: 40vw;" id="home">回首頁</button>
+      <br>
+    <button class="b3color re" style="background-color: #5A96E6; color: #000000; width: 20%; font-size: 0.9rem; padding: 0.3rem; margin-bottom: 0.6rem; left: 87.5%; bottom: 40vw;" id="re3">再玩一次</button>
+    <div id="obj"></div>
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+    <dotlottie-player id="lottie" src="/arrow.json" background="transparent" speed="1" style="display: block; position: relative; left: 35vw; bottom: 72.5vw; width: 20vw; height: 20vw" direction="1" playMode="normal" loop autoplay></dotlottie-player>
   </div>
 
   <script src="script.js"></script>

@@ -227,39 +227,39 @@ const objMappings1 = {
 };
 
 const objMappings2 = {
-  // b1a: '/img/y-obj8.png',
-  // b1b: '/img/y-obj1.png',
-  // b1c: '/img/y-obj9.png',
-  // b2a: '/img/y-obj6.png',
-  // b2b: '/img/y-obj7.png',
-  // b2c: '/img/y-obj3.png',
-  // b3a: '/img/y-obj2.png',
-  // b3b: '/img/y-obj5.png',
-  // b3c: '/img/y-obj4.png',
+  b1a: '/img/g-obj8.png',
+  b1b: '/img/g-obj3.png',
+  b1c: '/img/g-obj9.png',
+  b2a: '/img/g-obj2.png',
+  b2b: '/img/g-obj6.png',
+  b2c: '/img/g-obj7.png',
+  b3a: '/img/g-obj4.png',
+  b3b: '/img/g-obj5.png',
+  b3c: '/img/g-obj1.png',
 };
 
 const objMappings3 = {
-  // b1a: '/img/y-obj8.png',
-  // b1b: '/img/y-obj1.png',
-  // b1c: '/img/y-obj9.png',
-  // b2a: '/img/y-obj6.png',
-  // b2b: '/img/y-obj7.png',
-  // b2c: '/img/y-obj3.png',
-  // b3a: '/img/y-obj2.png',
-  // b3b: '/img/y-obj5.png',
-  // b3c: '/img/y-obj4.png',
+  b1a: '/img/t-obj1.png',
+  b1b: '/img/t-obj9.png',
+  b1c: '/img/t-obj8.png',
+  b2a: '/img/t-obj7.png',
+  b2b: '/img/t-obj6.png',
+  b2c: '/img/t-obj3.png',
+  b3a: '/img/t-obj4.png',
+  b3b: '/img/t-obj2.png',
+  b3c: '/img/t-obj5.png',
 };
 
 const objMappings4 = {
-  // b1a: '/img/y-obj8.png',
-  // b1b: '/img/y-obj1.png',
-  // b1c: '/img/y-obj9.png',
-  // b2a: '/img/y-obj6.png',
-  // b2b: '/img/y-obj7.png',
-  // b2c: '/img/y-obj3.png',
-  // b3a: '/img/y-obj2.png',
-  // b3b: '/img/y-obj5.png',
-  // b3c: '/img/y-obj4.png',
+  b1a: '/img/j-obj9.png',
+  b1b: '/img/j-obj2.png',
+  b1c: '/img/j-obj8.png',
+  b2a: '/img/j-obj7.png',
+  b2b: '/img/j-obj1.png',
+  b2c: '/img/j-obj6.png',
+  b3a: '/img/j-obj4.png',
+  b3b: '/img/j-obj5.png',
+  b3c: '/img/j-obj3.png',
 };
 
 let urlMappings
@@ -347,11 +347,14 @@ b1a.addEventListener('click', function() {
       t.style.background = 'url("/img/O1.png") no-repeat 10px 50%';
       t.style.color = '#D2D764';
     } else if (location.pathname === "/2.html") {
-      t.style.background = '#F07850 url("/img/O.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O2.png") no-repeat 10px 50%';
+      t.style.color = '#F07850';
     } else if (location.pathname === "/3.html") {
-      t.style.background = '#AAFFB4 url("/img/O.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O3.png") no-repeat 10px 50%';
+      t.style.color = '#AAFFB4';
     } else if (location.pathname === "/4.html") {
-      t.style.background = '#D2FFFF url("/img/O.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O4.png") no-repeat 10px 50%';
+      t.style.color = '#D2FFFF';
     }
     t.style.backgroundSize = "12.5%";
     a1 = u.id;
@@ -362,15 +365,20 @@ b1a.addEventListener('click', function() {
       u.style.background = 'url("/img/X1.png") no-repeat 10px 50%';
       u.style.color = '#465aaa';
     } else if (location.pathname === "/2.html") {
-      t.style.background = '#F07850 url("/img/O.png") no-repeat 3% 0%';
-      u.style.background = '#4B371E url("/img/X-dark.png") no-repeat 3% 0%';
-      u.style.color = '#ffffff';
+      t.style.background = 'url("/img/O2.png") no-repeat 10px 50%';
+      t.style.color = '#F07850';
+      u.style.background = 'url("/img/X2.png") no-repeat 10px 50%';
+      u.style.color = '#4B371E';
     } else if (location.pathname === "/3.html") {
-      t.style.background = '#AAFFB4 url("/img/O.png") no-repeat 3% 0%';
-      u.style.background = '#5A96E6 url("/img/X.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O3.png") no-repeat 10px 50%';
+      t.style.color = '#AAFFB4';
+      u.style.background = 'url("/img/X3.png") no-repeat 10px 50%';
+      u.style.color = '#5A96E6';
     } else if (location.pathname === "/4.html") {
-      t.style.background = '#D2FFFF url("/img/O.png") no-repeat 3% 0%';
-      u.style.background = '#C8E65A url("/img/X.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O4.png") no-repeat 10px 50%';
+      t.style.color = '#D2FFFF';
+      u.style.background = 'url("/img/X4.png") no-repeat 10px 50%';
+      u.style.color = '#C8E65A';
     }
     t.style.backgroundSize = "12.5%";
     u.style.backgroundSize = "12.5%";
@@ -402,11 +410,14 @@ b1b.addEventListener('click', function() {
       t.style.background = 'url("/img/O1.png") no-repeat 10px 50%';
       t.style.color = '#D2D764';
     } else if (location.pathname === "/2.html") {
-      t.style.background = '#F07850 url("/img/O.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O2.png") no-repeat 10px 50%';
+      t.style.color = '#F07850';
     } else if (location.pathname === "/3.html") {
-      t.style.background = '#AAFFB4 url("/img/O.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O3.png") no-repeat 10px 50%';
+      t.style.color = '#AAFFB4';
     } else if (location.pathname === "/4.html") {
-      t.style.background = '#D2FFFF url("/img/O.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O4.png") no-repeat 10px 50%';
+      t.style.color = '#D2FFFF';
     }
     t.style.backgroundSize = "12.5%";
     a1 = u.id;
@@ -417,15 +428,20 @@ b1b.addEventListener('click', function() {
       u.style.background = 'url("/img/X1.png") no-repeat 10px 50%';
       u.style.color = '#465aaa';
     } else if (location.pathname === "/2.html") {
-      t.style.background = '#F07850 url("/img/O.png") no-repeat 3% 0%';
-      u.style.background = '#4B371E url("/img/X-dark.png") no-repeat 3% 0%';
-      u.style.color = '#ffffff';
+      t.style.background = 'url("/img/O2.png") no-repeat 10px 50%';
+      t.style.color = '#F07850';
+      u.style.background = 'url("/img/X2.png") no-repeat 10px 50%';
+      u.style.color = '#4B371E';
     } else if (location.pathname === "/3.html") {
-      t.style.background = '#AAFFB4 url("/img/O.png") no-repeat 3% 0%';
-      u.style.background = '#5A96E6 url("/img/X.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O3.png") no-repeat 10px 50%';
+      t.style.color = '#AAFFB4';
+      u.style.background = 'url("/img/X3.png") no-repeat 10px 50%';
+      u.style.color = '#5A96E6';
     } else if (location.pathname === "/4.html") {
-      t.style.background = '#D2FFFF url("/img/O.png") no-repeat 3% 0%';
-      u.style.background = '#C8E65A url("/img/X.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O4.png") no-repeat 10px 50%';
+      t.style.color = '#D2FFFF';
+      u.style.background = 'url("/img/X4.png") no-repeat 10px 50%';
+      u.style.color = '#C8E65A';
     }
     t.style.backgroundSize = "12.5%";
     u.style.backgroundSize = "12.5%";
@@ -457,11 +473,14 @@ b1c.addEventListener('click', function() {
       t.style.background = 'url("/img/O1.png") no-repeat 10px 50%';
       t.style.color = '#D2D764';
     } else if (location.pathname === "/2.html") {
-      t.style.background = '#F07850 url("/img/O.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O2.png") no-repeat 10px 50%';
+      t.style.color = '#F07850';
     } else if (location.pathname === "/3.html") {
-      t.style.background = '#AAFFB4 url("/img/O.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O3.png") no-repeat 10px 50%';
+      t.style.color = '#AAFFB4';
     } else if (location.pathname === "/4.html") {
-      t.style.background = '#D2FFFF url("/img/O.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O4.png") no-repeat 10px 50%';
+      t.style.color = '#D2FFFF';
     }
     t.style.backgroundSize = "12.5%";
     a1 = u.id;
@@ -472,15 +491,20 @@ b1c.addEventListener('click', function() {
       u.style.background = 'url("/img/X1.png") no-repeat 10px 50%';
       u.style.color = '#465aaa';
     } else if (location.pathname === "/2.html") {
-      t.style.background = '#F07850 url("/img/O.png") no-repeat 3% 0%';
-      u.style.background = '#4B371E url("/img/X-dark.png") no-repeat 3% 0%';
-      u.style.color = '#ffffff';
+      t.style.background = 'url("/img/O2.png") no-repeat 10px 50%';
+      t.style.color = '#F07850';
+      u.style.background = 'url("/img/X2.png") no-repeat 10px 50%';
+      u.style.color = '#4B371E';
     } else if (location.pathname === "/3.html") {
-      t.style.background = '#AAFFB4 url("/img/O.png") no-repeat 3% 0%';
-      u.style.background = '#5A96E6 url("/img/X.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O3.png") no-repeat 10px 50%';
+      t.style.color = '#AAFFB4';
+      u.style.background = 'url("/img/X3.png") no-repeat 10px 50%';
+      u.style.color = '#5A96E6';
     } else if (location.pathname === "/4.html") {
-      t.style.background = '#D2FFFF url("/img/O.png") no-repeat 3% 0%';
-      u.style.background = '#C8E65A url("/img/X.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O4.png") no-repeat 10px 50%';
+      t.style.color = '#D2FFFF';
+      u.style.background = 'url("/img/X4.png") no-repeat 10px 50%';
+      u.style.color = '#C8E65A';
     }
     t.style.backgroundSize = "12.5%";
     u.style.backgroundSize = "12.5%";
@@ -512,11 +536,14 @@ b2a.addEventListener('click', function() {
       t.style.background = 'url("/img/O1.png") no-repeat 10px 50%';
       t.style.color = '#D2D764';
     } else if (location.pathname === "/2.html") {
-      t.style.background = '#F07850 url("/img/O.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O2.png") no-repeat 10px 50%';
+      t.style.color = '#F07850';
     } else if (location.pathname === "/3.html") {
-      t.style.background = '#AAFFB4 url("/img/O.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O3.png") no-repeat 10px 50%';
+      t.style.color = '#AAFFB4';
     } else if (location.pathname === "/4.html") {
-      t.style.background = '#D2FFFF url("/img/O.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O4.png") no-repeat 10px 50%';
+      t.style.color = '#D2FFFF';
     }
     t.style.backgroundSize = "12.5%";
     a2 = u.id;
@@ -527,15 +554,20 @@ b2a.addEventListener('click', function() {
       u.style.background = 'url("/img/X1.png") no-repeat 10px 50%';
       u.style.color = '#465aaa';
     } else if (location.pathname === "/2.html") {
-      t.style.background = '#F07850 url("/img/O.png") no-repeat 3% 0%';
-      u.style.background = '#4B371E url("/img/X-dark.png") no-repeat 3% 0%';
-      u.style.color = '#ffffff';
+      t.style.background = 'url("/img/O2.png") no-repeat 10px 50%';
+      t.style.color = '#F07850';
+      u.style.background = 'url("/img/X2.png") no-repeat 10px 50%';
+      u.style.color = '#4B371E';
     } else if (location.pathname === "/3.html") {
-      t.style.background = '#AAFFB4 url("/img/O.png") no-repeat 3% 0%';
-      u.style.background = '#5A96E6 url("/img/X.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O3.png") no-repeat 10px 50%';
+      t.style.color = '#AAFFB4';
+      u.style.background = 'url("/img/X3.png") no-repeat 10px 50%';
+      u.style.color = '#5A96E6';
     } else if (location.pathname === "/4.html") {
-      t.style.background = '#D2FFFF url("/img/O.png") no-repeat 3% 0%';
-      u.style.background = '#C8E65A url("/img/X.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O4.png") no-repeat 10px 50%';
+      t.style.color = '#D2FFFF';
+      u.style.background = 'url("/img/X4.png") no-repeat 10px 50%';
+      u.style.color = '#C8E65A';
     }
     t.style.backgroundSize = "12.5%";
     u.style.backgroundSize = "12.5%";
@@ -567,11 +599,14 @@ b2b.addEventListener('click', function() {
       t.style.background = 'url("/img/O1.png") no-repeat 10px 50%';
       t.style.color = '#D2D764';
     } else if (location.pathname === "/2.html") {
-      t.style.background = '#F07850 url("/img/O.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O2.png") no-repeat 10px 50%';
+      t.style.color = '#F07850';
     } else if (location.pathname === "/3.html") {
-      t.style.background = '#AAFFB4 url("/img/O.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O3.png") no-repeat 10px 50%';
+      t.style.color = '#AAFFB4';
     } else if (location.pathname === "/4.html") {
-      t.style.background = '#D2FFFF url("/img/O.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O4.png") no-repeat 10px 50%';
+      t.style.color = '#D2FFFF';
     }
     t.style.backgroundSize = "12.5%";
     a2 = u.id;
@@ -582,15 +617,20 @@ b2b.addEventListener('click', function() {
       u.style.background = 'url("/img/X1.png") no-repeat 10px 50%';
       u.style.color = '#465aaa';
     } else if (location.pathname === "/2.html") {
-      t.style.background = '#F07850 url("/img/O.png") no-repeat 3% 0%';
-      u.style.background = '#4B371E url("/img/X-dark.png") no-repeat 3% 0%';
-      u.style.color = '#ffffff';
+      t.style.background = 'url("/img/O2.png") no-repeat 10px 50%';
+      t.style.color = '#F07850';
+      u.style.background = 'url("/img/X2.png") no-repeat 10px 50%';
+      u.style.color = '#4B371E';
     } else if (location.pathname === "/3.html") {
-      t.style.background = '#AAFFB4 url("/img/O.png") no-repeat 3% 0%';
-      u.style.background = '#5A96E6 url("/img/X.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O3.png") no-repeat 10px 50%';
+      t.style.color = '#AAFFB4';
+      u.style.background = 'url("/img/X3.png") no-repeat 10px 50%';
+      u.style.color = '#5A96E6';
     } else if (location.pathname === "/4.html") {
-      t.style.background = '#D2FFFF url("/img/O.png") no-repeat 3% 0%';
-      u.style.background = '#C8E65A url("/img/X.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O4.png") no-repeat 10px 50%';
+      t.style.color = '#D2FFFF';
+      u.style.background = 'url("/img/X4.png") no-repeat 10px 50%';
+      u.style.color = '#C8E65A';
     }
     t.style.backgroundSize = "12.5%";
     u.style.backgroundSize = "12.5%";
@@ -622,11 +662,14 @@ b2c.addEventListener('click', function() {
       t.style.background = 'url("/img/O1.png") no-repeat 10px 50%';
       t.style.color = '#D2D764';
     } else if (location.pathname === "/2.html") {
-      t.style.background = '#F07850 url("/img/O.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O2.png") no-repeat 10px 50%';
+      t.style.color = '#F07850';
     } else if (location.pathname === "/3.html") {
-      t.style.background = '#AAFFB4 url("/img/O.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O3.png") no-repeat 10px 50%';
+      t.style.color = '#AAFFB4';
     } else if (location.pathname === "/4.html") {
-      t.style.background = '#D2FFFF url("/img/O.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O4.png") no-repeat 10px 50%';
+      t.style.color = '#D2FFFF';
     }
     t.style.backgroundSize = "12.5%";
     a2 = u.id;
@@ -637,15 +680,20 @@ b2c.addEventListener('click', function() {
       u.style.background = 'url("/img/X1.png") no-repeat 10px 50%';
       u.style.color = '#465aaa';
     } else if (location.pathname === "/2.html") {
-      t.style.background = '#F07850 url("/img/O.png") no-repeat 3% 0%';
-      u.style.background = '#4B371E url("/img/X-dark.png") no-repeat 3% 0%';
-      u.style.color = '#ffffff';
+      t.style.background = 'url("/img/O2.png") no-repeat 10px 50%';
+      t.style.color = '#F07850';
+      u.style.background = 'url("/img/X2.png") no-repeat 10px 50%';
+      u.style.color = '#4B371E';
     } else if (location.pathname === "/3.html") {
-      t.style.background = '#AAFFB4 url("/img/O.png") no-repeat 3% 0%';
-      u.style.background = '#5A96E6 url("/img/X.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O3.png") no-repeat 10px 50%';
+      t.style.color = '#AAFFB4';
+      u.style.background = 'url("/img/X3.png") no-repeat 10px 50%';
+      u.style.color = '#5A96E6';
     } else if (location.pathname === "/4.html") {
-      t.style.background = '#D2FFFF url("/img/O.png") no-repeat 3% 0%';
-      u.style.background = '#C8E65A url("/img/X.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O4.png") no-repeat 10px 50%';
+      t.style.color = '#D2FFFF';
+      u.style.background = 'url("/img/X4.png") no-repeat 10px 50%';
+      u.style.color = '#C8E65A';
     }
     t.style.backgroundSize = "12.5%";
     u.style.backgroundSize = "12.5%";
@@ -677,11 +725,14 @@ b3a.addEventListener('click', function() {
       t.style.background = 'url("/img/O1.png") no-repeat 10px 50%';
       t.style.color = '#D2D764';
     } else if (location.pathname === "/2.html") {
-      t.style.background = '#F07850 url("/img/O.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O2.png") no-repeat 10px 50%';
+      t.style.color = '#F07850';
     } else if (location.pathname === "/3.html") {
-      t.style.background = '#AAFFB4 url("/img/O.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O3.png") no-repeat 10px 50%';
+      t.style.color = '#AAFFB4';
     } else if (location.pathname === "/4.html") {
-      t.style.background = '#D2FFFF url("/img/O.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O4.png") no-repeat 10px 50%';
+      t.style.color = '#D2FFFF';
     }
     t.style.backgroundSize = "12.5%";
     a3 = u.id;
@@ -692,15 +743,20 @@ b3a.addEventListener('click', function() {
       u.style.background = 'url("/img/X1.png") no-repeat 10px 50%';
       u.style.color = '#465aaa';
     } else if (location.pathname === "/2.html") {
-      t.style.background = '#F07850 url("/img/O.png") no-repeat 3% 0%';
-      u.style.background = '#4B371E url("/img/X-dark.png") no-repeat 3% 0%';
-      u.style.color = '#ffffff';
+      t.style.background = 'url("/img/O2.png") no-repeat 10px 50%';
+      t.style.color = '#F07850';
+      u.style.background = 'url("/img/X2.png") no-repeat 10px 50%';
+      u.style.color = '#4B371E';
     } else if (location.pathname === "/3.html") {
-      t.style.background = '#AAFFB4 url("/img/O.png") no-repeat 3% 0%';
-      u.style.background = '#5A96E6 url("/img/X.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O3.png") no-repeat 10px 50%';
+      t.style.color = '#AAFFB4';
+      u.style.background = 'url("/img/X3.png") no-repeat 10px 50%';
+      u.style.color = '#5A96E6';
     } else if (location.pathname === "/4.html") {
-      t.style.background = '#D2FFFF url("/img/O.png") no-repeat 3% 0%';
-      u.style.background = '#C8E65A url("/img/X.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O4.png") no-repeat 10px 50%';
+      t.style.color = '#D2FFFF';
+      u.style.background = 'url("/img/X4.png") no-repeat 10px 50%';
+      u.style.color = '#C8E65A';
     }
     t.style.backgroundSize = "12.5%";
     u.style.backgroundSize = "12.5%";
@@ -732,11 +788,14 @@ b3b.addEventListener('click', function() {
       t.style.background = 'url("/img/O1.png") no-repeat 10px 50%';
       t.style.color = '#D2D764';
     } else if (location.pathname === "/2.html") {
-      t.style.background = '#F07850 url("/img/O.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O2.png") no-repeat 10px 50%';
+      t.style.color = '#F07850';
     } else if (location.pathname === "/3.html") {
-      t.style.background = '#AAFFB4 url("/img/O.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O3.png") no-repeat 10px 50%';
+      t.style.color = '#AAFFB4';
     } else if (location.pathname === "/4.html") {
-      t.style.background = '#D2FFFF url("/img/O.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O4.png") no-repeat 10px 50%';
+      t.style.color = '#D2FFFF';
     }
     t.style.backgroundSize = "12.5%";
     a3 = u.id;
@@ -747,15 +806,20 @@ b3b.addEventListener('click', function() {
       u.style.background = 'url("/img/X1.png") no-repeat 10px 50%';
       u.style.color = '#465aaa';
     } else if (location.pathname === "/2.html") {
-      t.style.background = '#F07850 url("/img/O.png") no-repeat 3% 0%';
-      u.style.background = '#4B371E url("/img/X-dark.png") no-repeat 3% 0%';
-      u.style.color = '#ffffff';
+      t.style.background = 'url("/img/O2.png") no-repeat 10px 50%';
+      t.style.color = '#F07850';
+      u.style.background = 'url("/img/X2.png") no-repeat 10px 50%';
+      u.style.color = '#4B371E';
     } else if (location.pathname === "/3.html") {
-      t.style.background = '#AAFFB4 url("/img/O.png") no-repeat 3% 0%';
-      u.style.background = '#5A96E6 url("/img/X.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O3.png") no-repeat 10px 50%';
+      t.style.color = '#AAFFB4';
+      u.style.background = 'url("/img/X3.png") no-repeat 10px 50%';
+      u.style.color = '#5A96E6';
     } else if (location.pathname === "/4.html") {
-      t.style.background = '#D2FFFF url("/img/O.png") no-repeat 3% 0%';
-      u.style.background = '#C8E65A url("/img/X.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O4.png") no-repeat 10px 50%';
+      t.style.color = '#D2FFFF';
+      u.style.background = 'url("/img/X4.png") no-repeat 10px 50%';
+      u.style.color = '#C8E65A';
     }
     t.style.backgroundSize = "12.5%";
     u.style.backgroundSize = "12.5%";
@@ -787,11 +851,14 @@ b3c.addEventListener('click', function() {
       t.style.background = 'url("/img/O1.png") no-repeat 10px 50%';
       t.style.color = '#D2D764';
     } else if (location.pathname === "/2.html") {
-      t.style.background = '#F07850 url("/img/O.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O2.png") no-repeat 10px 50%';
+      t.style.color = '#F07850';
     } else if (location.pathname === "/3.html") {
-      t.style.background = '#AAFFB4 url("/img/O.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O3.png") no-repeat 10px 50%';
+      t.style.color = '#AAFFB4';
     } else if (location.pathname === "/4.html") {
-      t.style.background = '#D2FFFF url("/img/O.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O4.png") no-repeat 10px 50%';
+      t.style.color = '#D2FFFF';
     }
     t.style.backgroundSize = "12.5%";
     a3 = u.id;
@@ -802,15 +869,20 @@ b3c.addEventListener('click', function() {
       u.style.background = 'url("/img/X1.png") no-repeat 10px 50%';
       u.style.color = '#465aaa';
     } else if (location.pathname === "/2.html") {
-      t.style.background = '#F07850 url("/img/O.png") no-repeat 3% 0%';
-      u.style.background = '#4B371E url("/img/X-dark.png") no-repeat 3% 0%';
-      u.style.color = '#ffffff';
+      t.style.background = 'url("/img/O2.png") no-repeat 10px 50%';
+      t.style.color = '#F07850';
+      u.style.background = 'url("/img/X2.png") no-repeat 10px 50%';
+      u.style.color = '#4B371E';
     } else if (location.pathname === "/3.html") {
-      t.style.background = '#AAFFB4 url("/img/O.png") no-repeat 3% 0%';
-      u.style.background = '#5A96E6 url("/img/X.png") no-repeat 10px 50%';
+      t.style.background = 'url("/img/O3.png") no-repeat 10px 50%';
+      t.style.color = '#AAFFB4';
+      u.style.background = 'url("/img/X3.png") no-repeat 10px 50%';
+      u.style.color = '#5A96E6';
     } else if (location.pathname === "/4.html") {
-      t.style.background = '#D2FFFF url("/img/O.png") no-repeat 3% 0%';
-      u.style.background = '#C8E65A url("/img/X.png") no-repeat 3% 0%';
+      t.style.background = 'url("/img/O4.png") no-repeat 10px 50%';
+      t.style.color = '#D2FFFF';
+      u.style.background = 'url("/img/X4.png") no-repeat 10px 50%';
+      u.style.color = '#C8E65A';
     }
     t.style.backgroundSize = "12.5%";
     u.style.backgroundSize = "12.5%";
