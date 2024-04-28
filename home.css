@@ -110,7 +110,7 @@ img:hover {
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 8vh;
+    top: 12vh;
 }
 
 h1 {

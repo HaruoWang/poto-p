@@ -354,7 +354,7 @@ b1a.addEventListener('click', function() {
       t.style.color = '#AAFFB4';
     } else if (location.pathname === "/4.html") {
       t.style.background = 'url("/img/O4.png") no-repeat 10px 50%';
-      t.style.color = '#D2FFFF';
+      t.style.color = '#E68C3C';
     }
     t.style.backgroundSize = "12.5%";
     a1 = u.id;
@@ -376,7 +376,7 @@ b1a.addEventListener('click', function() {
       u.style.color = '#5A96E6';
     } else if (location.pathname === "/4.html") {
       t.style.background = 'url("/img/O4.png") no-repeat 10px 50%';
-      t.style.color = '#D2FFFF';
+      t.style.color = '#E68C3C';
       u.style.background = 'url("/img/X4.png") no-repeat 10px 50%';
       u.style.color = '#C8E65A';
     }
@@ -417,7 +417,7 @@ b1b.addEventListener('click', function() {
       t.style.color = '#AAFFB4';
     } else if (location.pathname === "/4.html") {
       t.style.background = 'url("/img/O4.png") no-repeat 10px 50%';
-      t.style.color = '#D2FFFF';
+      t.style.color = '#E68C3C';
     }
     t.style.backgroundSize = "12.5%";
     a1 = u.id;
@@ -439,7 +439,7 @@ b1b.addEventListener('click', function() {
       u.style.color = '#5A96E6';
     } else if (location.pathname === "/4.html") {
       t.style.background = 'url("/img/O4.png") no-repeat 10px 50%';
-      t.style.color = '#D2FFFF';
+      t.style.color = '#E68C3C';
       u.style.background = 'url("/img/X4.png") no-repeat 10px 50%';
       u.style.color = '#C8E65A';
     }
@@ -480,7 +480,7 @@ b1c.addEventListener('click', function() {
       t.style.color = '#AAFFB4';
     } else if (location.pathname === "/4.html") {
       t.style.background = 'url("/img/O4.png") no-repeat 10px 50%';
-      t.style.color = '#D2FFFF';
+      t.style.color = '#E68C3C';
     }
     t.style.backgroundSize = "12.5%";
     a1 = u.id;
@@ -502,7 +502,7 @@ b1c.addEventListener('click', function() {
       u.style.color = '#5A96E6';
     } else if (location.pathname === "/4.html") {
       t.style.background = 'url("/img/O4.png") no-repeat 10px 50%';
-      t.style.color = '#D2FFFF';
+      t.style.color = '#E68C3C';
       u.style.background = 'url("/img/X4.png") no-repeat 10px 50%';
       u.style.color = '#C8E65A';
     }
@@ -543,7 +543,7 @@ b2a.addEventListener('click', function() {
       t.style.color = '#AAFFB4';
     } else if (location.pathname === "/4.html") {
       t.style.background = 'url("/img/O4.png") no-repeat 10px 50%';
-      t.style.color = '#D2FFFF';
+      t.style.color = '#E68C3C';
     }
     t.style.backgroundSize = "12.5%";
     a2 = u.id;
@@ -565,7 +565,7 @@ b2a.addEventListener('click', function() {
       u.style.color = '#5A96E6';
     } else if (location.pathname === "/4.html") {
       t.style.background = 'url("/img/O4.png") no-repeat 10px 50%';
-      t.style.color = '#D2FFFF';
+      t.style.color = '#E68C3C';
       u.style.background = 'url("/img/X4.png") no-repeat 10px 50%';
       u.style.color = '#C8E65A';
     }
@@ -606,7 +606,7 @@ b2b.addEventListener('click', function() {
       t.style.color = '#AAFFB4';
     } else if (location.pathname === "/4.html") {
       t.style.background = 'url("/img/O4.png") no-repeat 10px 50%';
-      t.style.color = '#D2FFFF';
+      t.style.color = '#E68C3C';
     }
     t.style.backgroundSize = "12.5%";
     a2 = u.id;
@@ -628,7 +628,7 @@ b2b.addEventListener('click', function() {
       u.style.color = '#5A96E6';
     } else if (location.pathname === "/4.html") {
       t.style.background = 'url("/img/O4.png") no-repeat 10px 50%';
-      t.style.color = '#D2FFFF';
+      t.style.color = '#E68C3C';
       u.style.background = 'url("/img/X4.png") no-repeat 10px 50%';
       u.style.color = '#C8E65A';
     }
@@ -669,7 +669,7 @@ b2c.addEventListener('click', function() {
       t.style.color = '#AAFFB4';
     } else if (location.pathname === "/4.html") {
       t.style.background = 'url("/img/O4.png") no-repeat 10px 50%';
-      t.style.color = '#D2FFFF';
+      t.style.color = '#E68C3C';
     }
     t.style.backgroundSize = "12.5%";
     a2 = u.id;
@@ -691,7 +691,7 @@ b2c.addEventListener('click', function() {
       u.style.color = '#5A96E6';
     } else if (location.pathname === "/4.html") {
       t.style.background = 'url("/img/O4.png") no-repeat 10px 50%';
-      t.style.color = '#D2FFFF';
+      t.style.color = '#E68C3C';
       u.style.background = 'url("/img/X4.png") no-repeat 10px 50%';
       u.style.color = '#C8E65A';
     }
@@ -732,7 +732,7 @@ b3a.addEventListener('click', function() {
       t.style.color = '#AAFFB4';
     } else if (location.pathname === "/4.html") {
       t.style.background = 'url("/img/O4.png") no-repeat 10px 50%';
-      t.style.color = '#D2FFFF';
+      t.style.color = '#E68C3C';
     }
     t.style.backgroundSize = "12.5%";
     a3 = u.id;
@@ -754,7 +754,7 @@ b3a.addEventListener('click', function() {
       u.style.color = '#5A96E6';
     } else if (location.pathname === "/4.html") {
       t.style.background = 'url("/img/O4.png") no-repeat 10px 50%';
-      t.style.color = '#D2FFFF';
+      t.style.color = '#E68C3C';
       u.style.background = 'url("/img/X4.png") no-repeat 10px 50%';
       u.style.color = '#C8E65A';
     }
@@ -795,7 +795,7 @@ b3b.addEventListener('click', function() {
       t.style.color = '#AAFFB4';
     } else if (location.pathname === "/4.html") {
       t.style.background = 'url("/img/O4.png") no-repeat 10px 50%';
-      t.style.color = '#D2FFFF';
+      t.style.color = '#E68C3C';
     }
     t.style.backgroundSize = "12.5%";
     a3 = u.id;
@@ -817,7 +817,7 @@ b3b.addEventListener('click', function() {
       u.style.color = '#5A96E6';
     } else if (location.pathname === "/4.html") {
       t.style.background = 'url("/img/O4.png") no-repeat 10px 50%';
-      t.style.color = '#D2FFFF';
+      t.style.color = '#E68C3C';
       u.style.background = 'url("/img/X4.png") no-repeat 10px 50%';
       u.style.color = '#C8E65A';
     }
@@ -858,7 +858,7 @@ b3c.addEventListener('click', function() {
       t.style.color = '#AAFFB4';
     } else if (location.pathname === "/4.html") {
       t.style.background = 'url("/img/O4.png") no-repeat 10px 50%';
-      t.style.color = '#D2FFFF';
+      t.style.color = '#E68C3C';
     }
     t.style.backgroundSize = "12.5%";
     a3 = u.id;
@@ -880,7 +880,7 @@ b3c.addEventListener('click', function() {
       u.style.color = '#5A96E6';
     } else if (location.pathname === "/4.html") {
       t.style.background = 'url("/img/O4.png") no-repeat 10px 50%';
-      t.style.color = '#D2FFFF';
+      t.style.color = '#E68C3C';
       u.style.background = 'url("/img/X4.png") no-repeat 10px 50%';
       u.style.color = '#C8E65A';
     }
