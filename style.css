@@ -405,17 +405,17 @@ button {
     -o-box-shadow: 2px 3px 10px 3px #999999;
 }
 
-/* #c1:focus {
-    filter: hue-rotate(90deg);
+#c1:focus {
+    outline-style: none;
 }
 
 #c2:focus {
-    filter: hue-rotate(90deg);
+    outline-style: none;
 }
 
 #c3:focus {
-    filter: hue-rotate(90deg);
-} */
+    outline-style: none;
+}
 
 #down {
     width: 140px;
