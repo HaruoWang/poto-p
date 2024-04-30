@@ -1026,34 +1026,59 @@ function rehref() {
 }
 
 function obj1() {
-  document.getElementById('lottie').style.display = 'none';
-
+  if (location.pathname === "/1.html") {
+    document.getElementById('c1').style.animation = 'ycr 0.25s linear';
+  } else if (location.pathname === "/2.html") {
+    document.getElementById('c1').style.animation = 'gcr 0.25s linear';
+  } else if (location.pathname === "/3.html") {
+    document.getElementById('c1').style.animation = 'tcr 0.25s linear';
+  } else if (location.pathname === "/4.html") {
+    document.getElementById('c1').style.animation = 'jcr 0.25s linear';
+  }
   document.getElementById('cover1').style.animation = 'c 0.25s linear';
   document.getElementById('cover1').style.animationFillMode = 'forwards';
   document.getElementById('cover1').style.transformOrigin = '-120px 180px';
-  document.getElementById('c1').style.animation = 'cr 0.25s linear';
   document.getElementById('c1').style.animationFillMode = 'forwards';
 
   function obj1a() {
+    if (location.pathname === "/1.html") {
+      document.getElementById('c2').style.animation = 'ycr 0.25s linear';
+    } else if (location.pathname === "/2.html") {
+      document.getElementById('c2').style.animation = 'gcr 0.25s linear';
+    } else if (location.pathname === "/3.html") {
+      document.getElementById('c2').style.animation = 'tcr 0.25s linear';
+    } else if (location.pathname === "/4.html") {
+      document.getElementById('c2').style.animation = 'jcr 0.25s linear';
+    }
     document.getElementById('cover2').style.animation = 'c 0.25s linear';
     document.getElementById('cover2').style.animationDirection = 'reverse';
     document.getElementById('cover2').style.animationFillMode = 'forwards';
-    document.getElementById('c2').style.animation = 'cr 0.25s linear';
     document.getElementById('c2').style.animationDirection = 'reverse';
     document.getElementById('c2').style.animationFillMode = 'forwards';
   }
 
   function obj1b() {
+    if (location.pathname === "/1.html") {
+      document.getElementById('c2').style.animation = 'ycr 0.25s linear';
+      document.getElementById('c3').style.animation = 'ycr 0.25s linear';
+    } else if (location.pathname === "/2.html") {
+      document.getElementById('c2').style.animation = 'gcr 0.25s linear';
+      document.getElementById('c3').style.animation = 'gcr 0.25s linear';
+    } else if (location.pathname === "/3.html") {
+      document.getElementById('c2').style.animation = 'tcr 0.25s linear';
+      document.getElementById('c3').style.animation = 'tcr 0.25s linear';
+    } else if (location.pathname === "/4.html") {
+      document.getElementById('c2').style.animation = 'jcr 0.25s linear';
+      document.getElementById('c3').style.animation = 'jcr 0.25s linear';
+    }
     document.getElementById('cover2').style.animation = 'c 0.25s linear';
     document.getElementById('cover2').style.animationDirection = 'reverse';
     document.getElementById('cover2').style.animationFillMode = 'forwards';
-    document.getElementById('c2').style.animation = 'cr 0.25s linear';
     document.getElementById('c2').style.animationDirection = 'reverse';
     document.getElementById('c2').style.animationFillMode = 'forwards';
     document.getElementById('cover3').style.animation = 'c 0.25s linear';
     document.getElementById('cover3').style.animationDirection = 'reverse';
     document.getElementById('cover3').style.animationFillMode = 'forwards';
-    document.getElementById('c3').style.animation = 'cr 0.25s linear';
     document.getElementById('c3').style.animationDirection = 'reverse';
     document.getElementById('c3').style.animationFillMode = 'forwards';
   }
@@ -1073,25 +1098,42 @@ function obj1() {
   obj.innerHTML += objText;
 }
 
-function obj2() {
-  document.getElementById('lottie').style.display = 'none';
-  
+function obj2() {  
+  if (location.pathname === "/1.html") {
+    document.getElementById('c1').style.animation = 'ycr 0.25s linear';
+    document.getElementById('c2').style.animation = 'ycr 0.25s linear';
+  } else if (location.pathname === "/2.html") {
+    document.getElementById('c1').style.animation = 'gcr 0.25s linear';
+    document.getElementById('c2').style.animation = 'gcr 0.25s linear';
+  } else if (location.pathname === "/3.html") {
+    document.getElementById('c1').style.animation = 'tcr 0.25s linear';
+    document.getElementById('c2').style.animation = 'tcr 0.25s linear';
+  } else if (location.pathname === "/4.html") {
+    document.getElementById('c1').style.animation = 'jcr 0.25s linear';
+    document.getElementById('c2').style.animation = 'jcr 0.25s linear';
+  }
   document.getElementById('cover1').style.animation = 'c 0.25s linear';
   document.getElementById('cover1').style.animationFillMode = 'forwards';
   document.getElementById('cover1').style.transformOrigin = '-120px 180px';
-  document.getElementById('c1').style.animation = 'cr 0.25s linear';
   document.getElementById('c1').style.animationFillMode = 'forwards';
   document.getElementById('cover2').style.animation = 'c 0.25s linear';
   document.getElementById('cover2').style.animationFillMode = 'forwards';
   document.getElementById('cover2').style.transformOrigin = '-120px 180px';
-  document.getElementById('c2').style.animation = 'cr 0.25s linear';
   document.getElementById('c2').style.animationFillMode = 'forwards';
 
   function obj2a() {
+    if (location.pathname === "/1.html") {
+      document.getElementById('c3').style.animation = 'ycr 0.25s linear';
+    } else if (location.pathname === "/2.html") {
+      document.getElementById('c3').style.animation = 'gcr 0.25s linear';
+    } else if (location.pathname === "/3.html") {
+      document.getElementById('c3').style.animation = 'tcr 0.25s linear';
+    } else if (location.pathname === "/4.html") {
+      document.getElementById('c3').style.animation = 'jcr 0.25s linear';
+    }
     document.getElementById('cover3').style.animation = 'c 0.25s linear';
     document.getElementById('cover3').style.animationDirection = 'reverse';
     document.getElementById('cover3').style.animationFillMode = 'forwards';
-    document.getElementById('c3').style.animation = 'cr 0.25s linear';
     document.getElementById('c3').style.animationDirection = 'reverse';
     document.getElementById('c3').style.animationFillMode = 'forwards';
   }
@@ -1108,22 +1150,34 @@ function obj2() {
 }
 
 function obj3() {
-  document.getElementById('lottie').style.display = 'none';
-
+  if (location.pathname === "/1.html") {
+    document.getElementById('c1').style.animation = 'ycr 0.25s linear';
+    document.getElementById('c2').style.animation = 'ycr 0.25s linear';
+    document.getElementById('c3').style.animation = 'ycr 0.25s linear';
+  } else if (location.pathname === "/2.html") {
+    document.getElementById('c1').style.animation = 'gcr 0.25s linear';
+    document.getElementById('c2').style.animation = 'gcr 0.25s linear';
+    document.getElementById('c3').style.animation = 'gcr 0.25s linear';
+  } else if (location.pathname === "/3.html") {
+    document.getElementById('c1').style.animation = 'tcr 0.25s linear';
+    document.getElementById('c2').style.animation = 'tcr 0.25s linear';
+    document.getElementById('c3').style.animation = 'tcr 0.25s linear';
+  } else if (location.pathname === "/4.html") {
+    document.getElementById('c1').style.animation = 'jcr 0.25s linear';
+    document.getElementById('c2').style.animation = 'jcr 0.25s linear';
+    document.getElementById('c3').style.animation = 'jcr 0.25s linear';
+  }
   document.getElementById('cover1').style.animation = 'c 0.25s linear';
   document.getElementById('cover1').style.animationFillMode = 'forwards';
   document.getElementById('cover1').style.transformOrigin = '-120px 180px';
-  document.getElementById('c1').style.animation = 'cr 0.25s linear';
   document.getElementById('c1').style.animationFillMode = 'forwards';
   document.getElementById('cover2').style.animation = 'c 0.25s linear';
   document.getElementById('cover2').style.animationFillMode = 'forwards';
   document.getElementById('cover2').style.transformOrigin = '-120px 180px';
-  document.getElementById('c2').style.animation = 'cr 0.25s linear';
   document.getElementById('c2').style.animationFillMode = 'forwards';
   document.getElementById('cover3').style.animation = 'c 0.25s linear';
   document.getElementById('cover3').style.animationFillMode = 'forwards';
   document.getElementById('cover3').style.transformOrigin = '-120px 180px';
-  document.getElementById('c3').style.animation = 'cr 0.25s linear';
   document.getElementById('c3').style.animationFillMode = 'forwards';
 
   const imageUrl = objMappings[a3];
