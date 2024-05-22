@@ -974,16 +974,15 @@ function next2() {
 function next3() {
   document.getElementById('p3').style.display = 'none';
   document.getElementById('p4').style.display = 'block';
-}
-
-function next4() {
-
+  
   const imageUrl = urlMappings[a1][a2][a3];
   const resultText = `<img src="${imageUrl}" alt="result image">`;
 
   result.innerHTML = '';
   result.innerHTML += resultText;
+}
 
+function next4() {
   document.getElementById('p4').style.display = 'none';
   document.getElementById('p5').style.display = 'block';
 
